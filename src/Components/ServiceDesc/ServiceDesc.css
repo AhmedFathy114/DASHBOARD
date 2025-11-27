@@ -1,0 +1,56 @@
+.service-overlay {
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+        padding: 1rem;
+        color: white;
+        display: flex;
+        flex-direction: column; 
+        flex-wrap: wrap;
+}
+
+.service-overlay .d-flex {
+        gap: 0.5rem; 
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 0.5rem;
+}
+
+.service-overlay .badge {
+        padding: 0.4rem 0.8rem;
+        border-radius: 0.5rem; 
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        white-space: nowrap;
+}
+
+.card-img-top {
+        max-height: 450px;
+        object-fit: cover; 
+        width: 100%;
+}
+
+.service-overlay h2 {
+        margin: 0;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: white;
+}
+
+@media (max-width: 576px) {
+        .service-overlay h2 {
+                font-size: 1.2rem;
+        }
+        .service-overlay .badge {
+                font-size: 0.7rem;
+                padding: 0.3rem 0.6rem;
+        }
+}
+.home-badge {
+        background-color: #ff7300; 
+        color: white; 
+        padding: 6px 14px;
+        border-radius: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        display: inline-block;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}

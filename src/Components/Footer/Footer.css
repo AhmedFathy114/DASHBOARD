@@ -1,0 +1,38 @@
+.bg-footer{
+    background-color: var(--secondary-color);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+.social  .twitter:hover{
+    color: #1d9bf0;
+    cursor: pointer;
+}
+.social .facebook:hover{
+    color: #4267b2;
+    cursor: pointer;
+}
+.social  .instagram:hover{
+    color: #d2145e;
+    cursor: pointer;
+}
+.social .linkedin:hover{
+    color: #0077b5;
+    cursor: pointer;
+}
+.rights{
+    text-align: center;
+    word-spacing: 7px;
+    color: rgb(81, 81, 81);
+}
+.rights span{
+    color: var(--main-color);
+    font-weight: 600;
+}

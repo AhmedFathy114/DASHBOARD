@@ -1,0 +1,14 @@
+.star-rating i {
+    font-size: 2rem;
+    margin-right: 0.3rem;
+}
+
+.first-star {
+    color: rgb(236, 171, 19); 
+    border-radius: 4px;
+    padding: 2px 6px;
+}
+
+.gray-star {
+    color: gray;
+}

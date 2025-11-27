@@ -1,0 +1,20 @@
+:root {
+    --main-color: rgb(236, 171, 19);
+    --hover-main-color: rgb(237, 178, 41);
+}
+
+.btn-main {
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+}
+.bookform-main {
+    margin-top: 7rem;
+}
+
+.bookform-card {
+    max-width: 700px;
+}
+
+
+

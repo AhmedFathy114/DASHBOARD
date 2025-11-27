@@ -1,0 +1,45 @@
+:root {
+    --main-color: rgb(236, 171, 19);
+    --hover-main-color: rgb(237, 178, 41);
+}
+
+.btn-main {
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+}
+.bookform-main {
+    /* margin-top: 5rem; */
+}
+
+.bookform-card {
+    width: 50vw;
+    max-height: 90vh;
+    /* max-width: 700px; */
+}
+
+
+@media (max-width:1200px) {
+    .bookform-card
+    {
+        width: 70vw;
+    }
+}
+@media (max-width:768px) {
+    /* .bookform-main {
+        margin-top: 3rem;
+    } */
+    .bookform-card
+    {
+        width: 85vw;
+
+    }
+}
+
+@media (max-width:576px) {
+    .bookform-card
+    {
+        width: 90vw;
+        max-height: 95vh;
+        padding: 0 auto !important;
+    }}
