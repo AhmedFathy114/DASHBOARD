@@ -1,10 +1,9 @@
-import '@fortawesome/fontawesome-free/css/all.min.css'
-import './App.css'
 import { useRoutes } from 'react-router-dom'
-import Routes from './Routes.jsx'
+import './App.css'
+import { routes } from './Routes'
 function App() {
-  const element= useRoutes(Routes);
-  return element;
-  }
+    const elements = useRoutes(routes);
+    return elements;
+}
 
-  export default App
+export default App

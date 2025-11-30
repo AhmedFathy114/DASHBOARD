@@ -1,0 +1,223 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    height: 100vh;
+    display: flex;
+}
+.links{
+    background-color: #253f59;
+    width: 20%;
+    transition: .5s width;
+    
+}
+.pro-name{
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+nav a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+    padding: 15px 0;
+     border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+.active{
+    background-color: rgb(11, 137, 137);
+}
+nav a:hover{
+    background-color: rgb(11, 137, 137);
+}
+.page-data{
+    background-color: rgb(216, 233, 233);
+   width: 80%;
+   display: grid;
+   grid-template-columns: 100%;
+   grid-template-rows: 50px auto 50px;
+   transition: .5s width;
+}
+header{
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+.bars{
+    width: 40px;
+    padding-top: 7.5px;
+}
+.bars > div{
+    width:30px;
+    background-color: gray;
+    height: 5px;
+    margin: 5px auto;
+}
+.profile{
+    width: calc(100% - 80px);
+    padding-right: 5%;
+}
+.ul-main{
+ margin: 0;
+ padding: 0;
+ list-style-type: none;
+ text-align: right;
+}
+.ul-main > li{
+    display: inline-block;
+    line-height:50px ;
+    position: relative;
+    white-space: nowrap;
+    text-align: center;
+    left: 0;
+    cursor: pointer;
+}
+.ul-sub{
+ margin: 0;
+ padding: 0;
+ list-style-type: none; 
+ position: absolute;
+ width: 100%;
+}
+.ul-sub a{
+    text-decoration: none;
+    background-color: #ccc;
+    display: block;
+    color: #000;
+    border-bottom: 1px solid rgba(255, 255, 255, .4);
+    transition: 0.3s;
+}
+.ul-sub button{
+    background-color: #ccc;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, .4);
+    transition: 0.3s;
+    display: block;
+    width: 195px;
+}
+.ul-sub a:hover{
+    background-color: #bbb;
+}
+.h-s{
+    display: none;
+}
+.w0{
+    width: 0;
+}
+.w100{
+    width: 100%;
+}
+.ro{
+    transform: rotate(180deg);
+}
+.ul-main > li > i{
+    transition: .5s transform;
+}
+.data{
+ background-color: rgb(216, 233, 233);
+}
+footer{
+    background-color: #ccc;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+}
+.log-page{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50px 1fr 50px;
+}
+.log-head{
+    background-color: #253f59;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    color: #FFF;
+}
+.log-foot{
+    background-color: #253f59;
+    text-align: center;
+    line-height: 50px;
+    font-size: 15px;
+    color: #FFF;
+}
+.log-body{
+    display: flex;
+    align-items: center;
+    background-color: #ccc;
+}
+.log-form{
+    width: 50%;
+    margin: 0 auto;
+}
+.orignal{
+    /* background-color: #000; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+}
+.orignal > div{
+    width: 300px;
+    height: 130px;
+    margin: 3% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div1{
+    background-color: #ccc;
+}
+.div2{
+    background-color: aqua;
+}
+.div3{
+    background-color: blueviolet;
+}
+.table-card {
+  width: 100%;
+}
+
+.table-card thead tr {
+  background: #343a40;
+  color: #fff;
+  text-align: center;
+}
+
+.table-card tbody tr {
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    border-radius: 12px;
+    text-align: center;
+}
+
+.table-card tbody tr td {
+  padding: 10px;
+  background: #fff;
+}
+.table-card img {
+  border-radius: 8px;
+  object-fit: cover;
+}
+ input{
+    width: 600px;
+}
+@media (max-width:400px){
+    .orignal{
+        margin-top:30px;
+    }
+    nav a{
+        font-size: 14px;
+    }
+    .pro-name{
+        font-size: 15px;
+    }
+}
